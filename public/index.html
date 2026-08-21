@@ -10,12 +10,14 @@
 <body class="bg-slate-50 text-slate-800 min-h-screen p-4 md:p-8">
   <div class="max-w-xl mx-auto space-y-6">
     
+    <!-- 헤더 -->
     <header class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 text-center space-y-1">
       <span class="inline-block bg-emerald-50 text-emerald-600 text-xs font-bold px-2.5 py-1 rounded-full">DB 영구 저장 및 100% 익명 보장</span>
       <h1 class="text-2xl font-bold text-slate-900">📬 학생 익명 건의함</h1>
       <p class="text-xs text-slate-500">작성자의 개인정보 및 접속 기록을 일절 수집하지 않습니다.</p>
     </header>
 
+    <!-- 건의 작성 폼 -->
     <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
       <h2 class="text-base font-bold text-slate-900">의견 남기기</h2>
       
@@ -39,9 +41,12 @@
       </button>
     </div>
 
+    <!-- 등록된 건의 목록 -->
     <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
       <h2 class="text-base font-bold text-slate-900">등록된 건의 목록</h2>
-      <div id="suggestionList" class="space-y-3"></div>
+      <div id="suggestionList" class="space-y-3">
+        <!-- 동적 카드 출력 -->
+      </div>
     </div>
 
   </div>
